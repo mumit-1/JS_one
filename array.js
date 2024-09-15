@@ -1,7 +1,7 @@
 const numbers = [23, 33, 44, 13, 78, 10, 999]; // it used as string to but use - '  '
 console.log(numbers.length); // getting total how many index there are
 console.log(numbers);
-console.log(numbers[0]);// getting the value of index number 1.
+console.log(numbers[0]);// getting the value of index number 0.
 
 let fourth = numbers[1]; // giving a value to a element by index
 console.log(fourth);
