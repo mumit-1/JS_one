@@ -1,0 +1,23 @@
+function okboom() {
+
+}
+okboom();
+
+function okboom2(a){
+//  return sum;
+}
+okboom(65);
+
+
+const option ='1010101';
+const arrayY=option.split('')
+console.log(arrayY);
+
+
+
+
+
+let value = 0;
+if(value === 0){
+    console.log(true);
+}
