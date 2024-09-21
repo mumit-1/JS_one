@@ -125,3 +125,12 @@ return sum
 const givenArray2 = [4,42,65,2,5,7,9,3,1]
 const evnArray2 = evnNum(givenArray2);
 console.log('even numbers sum',evnArray2);
+
+
+
+function ok2(a,b){
+  console.log(a,b);
+  console.log(arguments);  //this works like an "array like object " . and it does have index calling system but it doesnt have '.push ' system like array or any addidng or subtracting system. And i can use loop in that like "for...of" from array.
+  console.log(arguments[5]);
+}
+console.log(ok2(1,2,73,562,7,23,7,3,3));

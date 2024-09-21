@@ -61,3 +61,13 @@ console.log(numbers.concat(numbersTwo));// that adds two array and make one
 console.log(numbers.slice(2,5)); // slice works like it will start from starting index number but it will stop before the index ending number and thus we will see index number 2, 3, 4.
 
 
+
+const okM = [1,2,3]
+// below object is like a manual array 
+const ok ={
+    '0':1,
+    '1':2,
+    '2':3
+}
+console.log(ok['0']);
+console.log(ok[0]); //both are same 
