@@ -1,4 +1,4 @@
-const date = new Date('2024-11-7');
+const date = new Date();
 console.log(date);
 // console.log(date.toLocaleString('en-GB'));
 console.log(date.getMonth());
