@@ -23,7 +23,11 @@ const device = {
 
 };
 /// delete function
-delete device.deviceWeight;
+delete device.deviceWeight; // no.1
+
+const {deviceWeight, ...short} = device // no. 2
+// console.log(short);
+
 //changing value of property
 device.devicePrice = 1200;
 console.log(device);
@@ -77,3 +81,20 @@ console.log(device.deviceFeature[2]);
 
 
 
+
+//array of array
+
+
+const arrayOFarray = Object.entries(device);
+console.log(arrayOFarray);
+
+
+//freeze
+
+Object.freeze(device); //it will like stop the array after this line from further any kind of change
+
+
+
+// seal
+
+Object.seal(device); // after seal effect you can change the value but you can't delete or add any keys or properties
