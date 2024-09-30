@@ -69,3 +69,16 @@ for (let i = 0; i < valueX.length; i++) {
 //     secondValue = "type:" + typeof i2;
 //     console.log(secondValue);
 // }
+
+
+
+const instructor = [
+  {name: 'shobuj' , age : 30 , position : 'senior'},
+  {name: 'parvej' , age : 28 , position : 'junior'},
+  {name: 'bokul' , age : 27 , position : 'senior'} 
+]
+const work = instructor.filter(array => array.position === 'senior' ) 
+console.log(work);
+
+const reduce = instructor.reduce((p,c)=>p+c.age,0)
+console.log(reduce);
