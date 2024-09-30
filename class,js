@@ -1,0 +1,13 @@
+// it works like an kinda object . like i put the value from outside to a property or key .
+
+class Pop {
+  constructor(name, subject) {
+    this.name = name;
+    this.subject = subject;
+  }
+  //   lecture() {
+  //     console.log("very confusing");
+  //   }
+}
+
+console.log(new Pop("tom", "chem"));
