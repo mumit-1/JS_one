@@ -98,3 +98,17 @@ Object.freeze(device); //it will like stop the array after this line from furthe
 // seal
 
 Object.seal(device); // after seal effect you can change the value but you can't delete or add any keys or properties
+
+
+
+/// special case of calling property from the object => "." vs "[]"
+
+const boomX = {
+    class : 1,
+    "roll-number" : 23,
+    23 : kuddus,
+    "he is a good boy" : true
+}
+// console.log(boomX.23); this will not work 
+console.log(boomX["23"]);  //correct
+console.log(boomX["he is a good boy"]);
